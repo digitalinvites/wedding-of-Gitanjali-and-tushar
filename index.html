@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>You're Invited to The Wedding of Gitanjali & Tushar | 29th Feb 2024</title>
+    <link rel="shortcut icon" href="invite.jpeg" type="image/x-icon">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/intro.js/minified/introjs.min.css" rel="stylesheet"> 
+    <link href="https://unpkg.com/intro.js/themes/introjs-modern.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/intro.js/minified/intro.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+
+        img{
+            margin: auto;
+            height: 90%;
+            position: absolute;
+            top:47%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            border-radius: 5px;
+        }
+        button{
+            position: absolute;
+            bottom: 1%;
+            left: 50%;
+            transform: translateX(-50%);
+            background: rgb(107, 1, 107);
+            color: snow;
+            border: 0px ;
+            padding: 10px 30px;
+            border-radius: 50px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, .5);
+            transition: .5s all;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button:hover{
+            cursor: pointer;
+            background: rgb(223, 0, 223);
+            transition: .5s all;
+        }
+
+
+    </style>
+</head>
+<body>
+
+        <img src="./invite.jpeg" alt="">
+
+        <button onclick="window.location='https://maps.app.goo.gl/ooHv8CgC8RBd9b8m9'" data-title="VENUE" data-intro="Click Here to Open Venue / Wedding Location in Google Map." >
+            <i class="fa fa-map-marker" aria-hidden="true"></i>  &nbsp; Locate to Venue 
+        </button>
+        
+        <script>
+            introJs().start();
+        </script>
+</body>
+</html>
